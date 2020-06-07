@@ -1,0 +1,38 @@
+﻿@using Mercurius.ViewModels; 
+
+@model IEnumerable<ProductViewModel>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container">
+    <div class="row">
+        @Html.ActionLink("Enter New Product", "Create")
+    </div>
+
+    <div class="row">
+        <table class="table">
+                <tr>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Vendor</th>
+                </tr> 
+                @foreach(var prod in Model)
+                {
+                    <tr>
+                        <td>@prod.Name</td>
+                        <td>@prod.Description</td>
+                        <td>@prod.Vendor.Name</td>
+                        <td>
+                            @Html.ActionLink("Delete", "Delete", new { prod.Id })
+                        </td>
+                    </tr>
+                }
+        </table>
+    </div>
+</div>
+
+

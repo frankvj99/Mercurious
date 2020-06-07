@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nJAkk2OtUs4XFHY2tWnua8kP2QYMqieY1P3lcYxsBek+QmS+ebF7szpfqYxp6Hy2nv/45VDC+PuqdjKPReoPVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\frank\\Documents\\Coding\\Mercurius\\Mercurious.Entities\\Mercurious.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\frank\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\frank\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\frank\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

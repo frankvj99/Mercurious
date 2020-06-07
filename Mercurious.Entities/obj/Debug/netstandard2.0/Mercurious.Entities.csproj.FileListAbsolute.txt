@@ -1,0 +1,9 @@
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\obj\Debug\netstandard2.0\Mercurious.Entities.csproj.CoreCompileInputs.cache
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\obj\Debug\netstandard2.0\Mercurious.Entities.AssemblyInfoInputs.cache
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\obj\Debug\netstandard2.0\Mercurious.Entities.AssemblyInfo.cs
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\bin\Debug\netstandard2.0\Mercurious.Entities.deps.json
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\bin\Debug\netstandard2.0\Mercurious.Entities.dll
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\bin\Debug\netstandard2.0\Mercurious.Entities.pdb
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\obj\Debug\netstandard2.0\Mercurious.Entities.dll
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\obj\Debug\netstandard2.0\Mercurious.Entities.pdb
+C:\Users\frank\Documents\Coding\Mercurius\Mercurious.Entities\obj\Debug\netstandard2.0\Mercurious.Entities.csprojAssemblyReference.cache
