@@ -25,6 +25,8 @@ namespace Mercurius.ViewModels
         public bool IsActive { get; set; }
         public DateTime DateActivated { get; set; }
 
+        //public bool OnlyProductWithVendor { get; set; }
+
         [Required]
         [Display(Name = "Vendors")]
         public int? SourceVendorId { get; set; }

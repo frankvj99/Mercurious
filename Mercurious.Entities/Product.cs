@@ -16,7 +16,7 @@ namespace Mercurius.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public bool IsActive { get; set; }
-        public DateTime DateActivated { get; set; }
+        public DateTime? DateActivated { get; set; }
 
         [ForeignKey("Vendor")]
         public int SourceVendorId { get; set; }

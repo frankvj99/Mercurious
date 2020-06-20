@@ -60,7 +60,7 @@ namespace Mercurius.Application.Services
                 Name = product.Name,
                 Description = product.Description,
                 SourceVendorId = product.SourceVendorId ?? product.SourceVendorId.Value,
-                DateActivated = DateTime.Now,
+                DateActivated = product.DateActivated,
                 IsActive = product.IsActive
             };
 

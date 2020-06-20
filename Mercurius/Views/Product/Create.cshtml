@@ -42,11 +42,31 @@
         @Html.ValidationMessageFor(m => m.IsActive, String.Empty, new { @class = "text-danger" })
     </div>
 
+    <div id="dateActivated" class="form-group">
+        @Html.LabelFor(m => m.DateActivated, new { @class="control-label col-md-2" })
+        @Html.EditorFor(m => m.DateActivated)
+        @Html.ValidationMessageFor(m => m.DateActivated, String.Empty, new { @class = "text-danger"})
+    </div>
+
     <div class="div">
         <input type="submit" value="Save Product" class="btn btn-primary" />
     </div>
 </div>
-            
+
+
+<script>
+    const cbIsActive = document.querySelector("#IsActive");
+    const dvDateActivated = document.querySelector('#dateActivated');
+    dvDateActivated.style.display = 'none';
+
+    cbIsActive.addEventListener('change', setBlockElementDisplayOnVisibility);
+
+    function setBlockElementDisplayOnVisibility(e) {
+        setBlockElementDisplayOnVisibility(dvDateActivated, e.target.checked);
+    }
+
+</script>
+    
 }
 
 
